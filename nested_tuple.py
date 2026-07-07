@@ -1,0 +1,5 @@
+nested_tuple = (1,2,("pop", "rock"), (3,4), ("disco",(1,2)))
+print("nested_tuple:", nested_tuple)
+print("nested_tuple:", nested_tuple)
+print("nested_tuple:", nested_tuple[2])
+print("nested_tuple:", nested_tuple[2][0])

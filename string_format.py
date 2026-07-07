@@ -18,3 +18,5 @@ print("My name is %s and I am %d years old." %(name,age))
 x=10
 y=20
 print(f"The sum of x:{x} and y:{y} is {x+y}")
+
+
