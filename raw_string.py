@@ -14,3 +14,8 @@ print("Regular String:", regular_string)
 
 name = "Man\"oj\""
 print(name)
+
+if('a' == 'A'):
+    print("equals")
+else:
+    print("not equal")

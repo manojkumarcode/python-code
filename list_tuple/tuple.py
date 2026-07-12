@@ -1,3 +1,11 @@
+tup1 = ("1", [1,2])
+print(tup1)
+
+list1 = [1,2,3]
+print("list1:" , list1)
+list1 = [1,2,3, (1,2, "manoj")]
+print("list1:" , list1)
+
 tuple1 = ("disco", 10, 1.2)
 print(tuple1)
 print("tuple1[0]:" + tuple1[0])
