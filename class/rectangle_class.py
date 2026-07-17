@@ -4,3 +4,4 @@ class Rectangle(object):
         self.height = height
         self.width = width
         self.color = color
+
