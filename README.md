@@ -314,3 +314,13 @@ python data/pandas_practice.py
 ```
 
 > Some scripts import shared data/classes from sibling files (e.g. `list_tuple/test_data.py`, `class/circle_class.py`, `fundaments_programming/test_analyzer.py`) or read relative file paths (e.g. `data/pandas_practice.py`, `data/files.py`), so run them from the repository root or adjust the path accordingly.
+
+## What Python does with the dot
+
+```mermaid
+flowchart TD
+    A["You write<br/><code>a.deposit(500)</code>"]
+    B["Python runs<br/><code>BankAccount.deposit(a, 500)</code>"]
+    C["Inside the method<br/><code>self = a, amount = 500</code>"]
+    A --> B --> C
+```

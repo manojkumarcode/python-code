@@ -1,3 +1,4 @@
+"""Practice script for Python string formatting."""
 name = "John"
 age = 30
 print(f"My name is {name} and I am {age} years old")
@@ -13,10 +14,8 @@ age =20
 # %d: This is a placeholder for an integer.
 print("My name is %s and I am %d years old." %(name,age))
 
-# F-strings are also able to evaluate expressions inside the curly braces, 
+# F-strings are also able to evaluate expressions inside the curly braces,
 # which can be very handy. For example:
-x=10
-y=20
-print(f"The sum of x:{x} and y:{y} is {x+y}")
-
-
+X=10
+Y=20
+print(f"The sum of x:{X} and y:{Y} is {X+Y}")
